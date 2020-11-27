@@ -1,0 +1,19 @@
+.paginar {
+    margin: 1em;
+    z-index: 100;
+}
+
+.principal{
+    background-color:  rgb(172, 243, 222);
+}
+.ordenar{
+    position: relative;
+    margin-top: 15px;    
+}
+.menor, .mayor, .anterior, .siguiente{
+    padding: 0.3em;
+    border-radius: 6px;
+    margin: 1em;
+    cursor: pointer;
+
+}

@@ -1,0 +1,66 @@
+
+
+
+.div{
+    background-image: url('./pexels-luizclas-556665.jpg');
+    height: 100vh;
+    min-height: 300px;
+    
+    
+}
+ 
+.formulario {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    animation: drop 3.0s ease; 
+    
+    
+}
+.titulo{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.inputuno, .inputdos, .inputtres, .textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+.textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.boton{
+    background: #31184a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    height: 40px;
+    padding: 0 ;
+    width: 100%;
+}
+.boton:hover{
+    cursor: pointer;
+}
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
